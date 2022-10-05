@@ -3,15 +3,7 @@ import "./style.scss";
 
 const Todo = (props) => {
   const { todo, text,setTodos,todos,id } = props;
-
-  const deleteTodo = () => {
-
-    console.log(todo.id);
-
-  }
-
-
-   
+  
   return (
   <div className="todo">
     <div>
