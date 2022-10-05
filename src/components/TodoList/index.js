@@ -14,7 +14,8 @@ const TodoList = (props) => {
         key={todo.id}
         text={todo.text}
         todos={todos}
-        setTodos={setTodos}     
+        setTodos={setTodos}
+        todo={todo}    
         />
       ))
      }
