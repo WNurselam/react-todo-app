@@ -1,0 +1,48 @@
+.todo-container{
+
+  h2 {
+    font-size: 2rem;
+    font-weight: 600px;
+    letter-spacing: 3px;
+    color: rgb(136, 70, 70);
+    margin: 30px;
+  }
+  
+  form input, form button{
+      padding: 0.50rem;
+      font-size: 1.5rem;
+      border: 1px solid #ced4da;
+      background-color: #fff;
+      border-radius: 0.25rem;
+      outline: none;
+      box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+  form input{
+    width: 600px;
+    transition: all 0.3s ease;
+  }
+  form input:focus{
+    border-color: #635477;
+  }
+  
+  form button{
+    background: #ceccd1;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    padding: 10px 15px;
+  }
+  
+  form button:hover{
+    background: #b5b4b8;
+    transition: all 0.1s ease;
+  }
+  
+  form button:active{
+    opacity: 1;
+    pointer-events: auto;
+  }
+
+}
+
+
+
