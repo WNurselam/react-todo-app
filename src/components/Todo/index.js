@@ -5,7 +5,7 @@ const Todo = (props) => {
   const { todo, text,setTodos,todos,id } = props;
 
   const deleteTodo = () => {
-    setTodos(todos.filter((item) => item.id !== todo.id)); 
+    setTodos(todos.filter((item) => item.id !== todo.id));
     //console.log(todos); 
   };
 
