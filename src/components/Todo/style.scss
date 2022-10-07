@@ -13,8 +13,18 @@
     box-shadow: 3px 3px 10px 3px rgba(31, 3, 3, 0.3);
     padding: 8px;
 
-    .icon-container i{
-      padding: 8px;    
+    .icon-container i {
+      padding: 8px;
+    }
+
+    .completed {
+      text-decoration: line-through;
+      opacity: 0.5;
+      transition: border 0.7s ease;
+      color: red;
+    }
+    i:hover {
+      cursor: pointer;
     }
   }
 }

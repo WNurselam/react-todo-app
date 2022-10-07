@@ -1,0 +1,25 @@
+.todo-header {
+  ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+  }
+  li {
+    margin: 10px;
+  }
+
+  .btn {
+    border: none;
+    background-color: #ffff;
+    padding: 8px 25px;
+    font-size: 20px;
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+
+  button.selected {
+    border-bottom: 1px solid rgb(194, 62, 62);
+  }
+}
