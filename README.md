@@ -1,4 +1,4 @@
-![alt text]('./src/assets/todos.png)
+![alt text]('./src/assets/todos.png')
 
 ### `npm start`
 
